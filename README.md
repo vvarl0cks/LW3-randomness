@@ -31,6 +31,6 @@ Attack contract address 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
 
   10 passing (1s)
 ```
-👮 Preventions
+# 👮 Preventions
 - Don't use blockhash, block.timestamp, or really any sort of on-chain data as sources of randomness
 - You can use Chainlink VRF's for true source of randomness ➡ https://docs.chain.link/docs/chainlink-vrf/
